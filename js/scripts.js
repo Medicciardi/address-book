@@ -2,12 +2,20 @@
 function Contact(first, last) {
   this.firstName = first;
   this.lastName = last;
+  this.addresses = [];
 
-Contact.prototype.fullName = function() {
+Contact.prototype.fullName= function() {
   return this.firstName + " " + this.lastName;
 }
 }
 
+function Address(street, city, state, zipcode) {
+  this.street = street;
+  this.city = city;
+  this.state = state;
+  this.zipcode = zipcode;
+
+}
 // user interface logic
 $(document).ready(function() {
   $("form#new-contact").submit(function(event) {
