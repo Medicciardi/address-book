@@ -10,3 +10,20 @@
 .contact:hover {
   text-decoration: underline;
 }
+.list-group-item {
+
+  color: blue;
+  box-shadow: 5px 6px 7px;
+  text-align: center;
+  box-sizing: content-box;
+
+
+
+
+}
+
+
+
+
+
+  }
